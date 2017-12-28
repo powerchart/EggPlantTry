@@ -1,0 +1,6 @@
+﻿put "The text" into mytext
+
+put imageLocation(text:mytext,searchRectangle(444,130,533,580)) into EP
+
+
+put ImageLocation(Text:mytext, 

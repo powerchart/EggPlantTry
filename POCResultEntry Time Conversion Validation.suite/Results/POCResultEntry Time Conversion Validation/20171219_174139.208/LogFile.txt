@@ -1,0 +1,27 @@
+﻿2017-12-19 17:41:39.211 +0530	START		Running POCResultEntry Time Conversion Validation.script
+2017-12-19 17:41:39.409 +0530	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-19 17:41:41.615 +0530	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-19 17:41:51.063 +0530	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-19 17:41:51.164 +0530	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-19 17:42:01.281 +0530	LogWarning		Unable to Find Image(s): Name.png -- AutoUpdate engaged	3	function_encounterselect	MyFunctions.script
+2017-12-19 17:42:01.337 +0530	AutoUpdateCaptureScreen	AutoUpdate_0001.png		3	function_encounterselect	MyFunctions.script
+2017-12-19 17:42:01.342 +0530	AutoUpdateWarning	Name.png	Found Alternate Image -- Using Dynamic Tolerance 60	3	function_encounterselect	MyFunctions.script	"Name" = "Dynamic Tolerance"; "Info" = "60"; 
+2017-12-19 17:42:01.369 +0530	waitfor	Name.png	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-19 17:42:01.875 +0530	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-19 17:42:02.685 +0530	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-19 17:42:06.175 +0530	readtext		(338,355,971,552)
+2017-12-19 17:42:06.180 +0530	Log		Searching...	6	function_encounterselect	MyFunctions.script
+2017-12-19 17:42:08.665 +0530	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-19 17:42:09.544 +0530	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-19 17:42:10.451 +0530	click	(TEXT:"Test site:")	at (10, 162)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-19 17:42:11.282 +0530	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-19 17:42:13.512 +0530	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-19 17:42:14.485 +0530	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-19 17:42:14.494 +0530	Log		2017-12-18	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 17:42:16.432 +0530	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 17:42:17.272 +0530	typetext		12/18/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 17:42:17.994 +0530	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 17:42:18.768 +0530	typetext		17:42	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 17:42:19.506 +0530	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 17:42:19.572 +0530	EndTestCase		(Duration:"40.350953", Errors:"0", Exceptions:"0", StartTime:"2017-12-19 17:41:39 +0530", Successes:"1", TestCase:"POCResultEntry Time Conversion Validation.script", Warnings:"1")
+2017-12-19 17:42:19.661 +0530	SUCCESS		Execution Time 0:00:40 POCResultEntry Time Conversion Validation.script

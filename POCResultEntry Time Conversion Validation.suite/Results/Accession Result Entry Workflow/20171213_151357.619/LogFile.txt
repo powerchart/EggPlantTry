@@ -1,0 +1,4 @@
+﻿2017-12-13 15:13:57.621 -0600	START		Running Accession Result Entry Workflow.script
+2017-12-13 15:14:02.164 -0600	everyimagelocation	(TEXT:"Procedure")	found 3 images	2	on_accession_result_entry_workflow	Accession Result Entry Workflow.script
+2017-12-13 15:14:02.256 -0600	EndTestCase		(Duration:"4.630737", Errors:"1", Exceptions:"0", StartTime:"2017-12-13 15:13:57 -0600", Successes:"0", TestCase:"Accession Result Entry Workflow.script", Warnings:"0")
+2017-12-13 15:14:02.706 -0600	FAILURE	Screen_Error.png	STUnknownMessage ERROR: 'readtext' was called as a Command, but is only available as a Function -- Execution Time 0:00:04 Accession Result Entry Workflow.script

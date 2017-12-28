@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commandList</key>
+	<string>[{captureRect:[15, 11, 32, 28], command:@"Click", eventNum:2, hotSpot:[26.302905, 746], imageName:@"", infoDict:{folderPath:@"/", imageName:@"image0001", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"Screen0002.png"}, {captureRect:[15, 11, 32, 28], command:@"Click", eventNum:4, hotSpot:[26.302905, 746], imageName:@"", infoDict:{folderPath:@"/", imageName:@"image0002", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"Screen0004.png"}, {captureRect:[13, 9, 232, 34], command:@"Click", eventNum:6, hotSpot:[74.53527, 756.547718], imageName:@"", infoDict:{folderPath:@"/", imageName:@"sspoem", searchType:@"Smooth", waitFor:@""}, OCRText:@"ss p o e m", screenShotFile:@"Screen0006.png", useOCR:@"NO"}, {command:@"TypeText", eventNum:8, screenShotFile:@"Screen0008.png", text:@"\"pocresultentry\",Return"}, {command:@"TypeText", eventNum:37, screenShotFile:@"Screen0036.png", text:@"\"cerner\",Return"}, {command:@"TypeText", eventNum:51, screenShotFile:@"Screen0038.png", text:@"\"new,ap\",Return"}, {captureRect:[342, 597, 394, 611], command:@"Click", eventNum:66, hotSpot:[372, 163], imageName:@"", infoDict:{folderPath:@"/", imageName:@"NEWAP", searchType:@"Smooth", waitFor:@""}, OCRText:@"NEW. AP", screenShotFile:@"Screen0066.png", useOCR:@"NO"}, {captureRect:[710, 154, 780, 184], command:@"Click", eventNum:68, hotSpot:[745, 599], imageName:@"", infoDict:{folderPath:@"/", imageName:@"image0003", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"Screen0068.png"}, {captureRect:[126, 585, 196, 615], command:@"Click", eventNum:70, hotSpot:[161, 168], imageName:@"", infoDict:{folderPath:@"/", imageName:@"image0004", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"Screen0070.png"}, {captureRect:[53, 569, 123, 599], command:@"Click", eventNum:72, hotSpot:[88, 184], imageName:@"", infoDict:{folderPath:@"/", imageName:@"image0005", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"Screen0072.png"}, {captureRect:[0, 533, 146, 577], command:@"Click", eventNum:74, hotSpot:[86, 213], imageName:@"", infoDict:{folderPath:@"/", imageName:@"IUVIWIW", searchType:@"Smooth", waitFor:@""}, OCRText:@"I UVI .WIW.", screenShotFile:@"Screen0074.png", useOCR:@"NO"}, {captureRect:[11, 484, 128, 497], command:@"Click", eventNum:76, hotSpot:[96.340249, 281], imageName:@"", infoDict:{folderPath:@"/", imageName:@"BloodGasVenousSI", searchType:@"Smooth", waitFor:@""}, OCRText:@"Blood Gas Venous SI", screenShotFile:@"Screen0076.png", useOCR:@"NO"}, {captureRect:[90, 447, 168, 469], command:@"Click", eventNum:78, hotSpot:[140, 315], imageName:@"", infoDict:{folderPath:@"/", imageName:@"image0006", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"Screen0078.png"}, {captureRect:[172, 451, 202, 464], command:@"Click", eventNum:80, hotSpot:[194, 311], imageName:@"", infoDict:{folderPath:@"/", imageName:@"0954", searchType:@"Smooth", waitFor:@""}, OCRText:@"0954", screenShotFile:@"Screen0080.png", useOCR:@"NO"}, {command:@"TypeText", eventNum:82, screenShotFile:@"Screen0082.png", text:@"\"2212\",Tab"}, {captureRect:[837, 73, 907, 103], command:@"Click", eventNum:92, hotSpot:[872, 680], imageName:@"", infoDict:{folderPath:@"/", imageName:@"image0007", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"Screen0092.png"}, {command:@"TypeText", eventNum:94, screenShotFile:@"Screen0094.png", text:@"CommandKey,\"v\""}, {captureRect:[79, 390, 149, 420], command:@"Click", eventNum:98, hotSpot:[114, 363], imageName:@"", infoDict:{folderPath:@"/", imageName:@"image0008", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"Screen0098.png"}, {command:@"TypeText", eventNum:100, screenShotFile:@"Screen0100.png", text:@"CommandKey,\"v\""}, {command:@"TypeText", eventNum:103, screenShotFile:@"Screen0100.png", text:@"\"CH\""}, {captureRect:[79, 390, 149, 420], command:@"MoveTo", eventNum:109, hotSpot:[114, 363], imageName:@"", infoDict:{folderPath:@"/", imageName:@"image0009", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"Screen0109.png"}, {captureRect:[79, 390, 149, 420], command:@"Click", eventNum:110, hotSpot:[114, 363], imageName:@"", infoDict:{folderPath:@"/", imageName:@"image0010", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"Screen0110.png"}, {command:@"TypeText", eventNum:113, screenShotFile:@"Screen0113.png", text:@"\"CH\""}, {captureRect:[79, 390, 149, 420], command:@"MoveTo", eventNum:118, hotSpot:[114, 363], imageName:@"", infoDict:{folderPath:@"/", imageName:@"image0011", searchType:@"Tolerant", waitFor:@""}, screenShotFile:@"Screen0118.png"}, {command:@"TypeText", eventNum:119, screenShotFile:@"Screen0119.png", text:@"\"-05-\""}, {command:@"TypeText", eventNum:126, screenShotFile:@"Screen0119.png", text:@"\"00085\",Return"}, {captureRect:[846, 75, 892, 88], command:@"Click", eventNum:139, hotSpot:[875, 685], imageName:@"", infoDict:{folderPath:@"/", imageName:@"Perform", searchType:@"Smooth", waitFor:@""}, screenShotFile:@"Screen0139.png"}]</string>
+	<key>generatedCommands</key>
+	<array>
+		<string>Click "image0001"</string>
+		<string>Click "image0002"</string>
+		<string>Click "sspoem"</string>
+		<string>TypeText "pocresultentry",Return</string>
+		<string>TypeText "cerner",Return</string>
+		<string>TypeText "new,ap",Return</string>
+		<string>Click "NEWAP"</string>
+		<string>Click "image0003"</string>
+		<string>Click "image0004"</string>
+		<string>Click "image0005"</string>
+		<string>Click "IUVIWIW"</string>
+		<string>Click "BloodGasVenousSI"</string>
+		<string>Click "image0006"</string>
+		<string>Click "0954"</string>
+		<string>TypeText "2212",Tab</string>
+		<string>Click "image0007"</string>
+		<string>TypeText CommandKey,"v"</string>
+		<string>Click "image0008"</string>
+		<string>TypeText CommandKey,"v"</string>
+		<string>TypeText "CH"</string>
+		<string>MoveTo "image0009"</string>
+		<string>Click "image0010"</string>
+		<string>TypeText "CH"</string>
+		<string>MoveTo "image0011"</string>
+		<string>TypeText "-05-"</string>
+		<string>TypeText "00085",Return</string>
+		<string>Click "Perform"</string>
+	</array>
+	<key>locallyAddedFiles</key>
+	<dict>
+		<key></key>
+		<array>
+			<string>image0001.png</string>
+			<string>image0002.png</string>
+			<string>sspoem.png</string>
+			<string>NEWAP.png</string>
+			<string>image0003.png</string>
+			<string>image0004.png</string>
+			<string>image0005.png</string>
+			<string>IUVIWIW.png</string>
+			<string>BloodGasVenousSI.png</string>
+			<string>image0006.png</string>
+			<string>0954.png</string>
+			<string>image0007.png</string>
+			<string>image0008.png</string>
+			<string>image0009.png</string>
+			<string>image0010.png</string>
+			<string>image0011.png</string>
+			<string>Perform.png</string>
+			<string>image0001.png</string>
+			<string>image0002.png</string>
+			<string>sspoem.png</string>
+			<string>NEWAP.png</string>
+			<string>image0003.png</string>
+			<string>image0004.png</string>
+			<string>image0005.png</string>
+			<string>IUVIWIW.png</string>
+			<string>BloodGasVenousSI.png</string>
+			<string>image0006.png</string>
+			<string>0954.png</string>
+			<string>image0007.png</string>
+			<string>image0008.png</string>
+			<string>image0009.png</string>
+			<string>image0010.png</string>
+			<string>image0011.png</string>
+			<string>Perform.png</string>
+		</array>
+	</dict>
+	<key>sessionType</key>
+	<string>turboSession</string>
+	<key>unnamedImageCount</key>
+	<integer>0</integer>
+</dict>
+</plist>

@@ -1,0 +1,7 @@
+﻿2017-12-13 14:52:23.574 -0600	START		Running Accession Result Entry Workflow.script
+2017-12-13 14:52:28.406 -0600	everyimagelocation	(TEXT:"Procedure")	found 3 images	2	on_accession_result_entry_workflow	Accession Result Entry Workflow.script
+2017-12-13 14:52:28.411 -0600	Log		(8,238,101,398)	11	on_accession_result_entry_workflow	Accession Result Entry Workflow.script
+2017-12-13 14:52:28.556 -0600	readtext		(8,238,101,398)
+2017-12-13 14:52:28.560 -0600	Log		R_Segs\nVR_Lymphs\nVR_Monos\nVR_Basos\nVR_Eos\nVR_Bands\nVR_B lasts\nVR_Metas\nVR_Myelos\nVR Wbc	12	on_accession_result_entry_workflow	Accession Result Entry Workflow.script
+2017-12-13 14:52:28.688 -0600	EndTestCase		(Duration:"5.108621", Errors:"1", Exceptions:"0", StartTime:"2017-12-13 14:52:23 -0600", Successes:"0", TestCase:"Accession Result Entry Workflow.script", Warnings:"0")
+2017-12-13 14:52:28.943 -0600	FAILURE	Screen_Error.png	NoTable No table was found in the specified area of the screen for the ReadTable() function -- Execution Time 0:00:05 Accession Result Entry Workflow.script

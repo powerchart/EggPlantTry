@@ -1,0 +1,29 @@
+﻿
+--Repeat 10 times
+--StartMovie "MICResultEntry Flow"
+params SUTID1, SUTPassword, SUTUsername
+Connect (serverID: "10.171.87.132", portNum: 3389, password: cerner, username: cerner, Type:"RDP", Width: 1920, Height: 1080)
+get MyFunctions.LaunchAndLoginApplication ("MICResultEntry")
+
+WaitFor 30 , (Text:"Accession")
+Click(text:"Accession",HotSpot:(70,0))
+
+TypeText controlKey & homekey & shiftkey & endKey
+TypeText backspace
+
+TypeText "15-016-0001"
+TypeText returnKey
+
+TypeText altKey & "v"
+TypeText "p"
+TypeText "r"
+WaitFor 30 , (Text:"END OF REPORT")
+
+Click (Text:"Provider")
+
+TypeText altKey & F4
+TypeText altKey & F4
+
+--StopMovie
+
+--End Repeat

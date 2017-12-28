@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="MICResultEntry Flow.script" package="POCResultEntry Time Conversion Validation.suite" timestamp="2017-12-14 15:33:12.692 -0600"
+ tests="1" successes="1" errors="0" time="31.722588">
+  <properties>
+   <property name="RunDate" value="2017-12-14 15:33:12.692 -0600"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="MICResultEntry Flow.script" assertions="1" successes="1" errors="0" time="31.71577">
+  </testcase>
+ </testsuite>
+</testsuites>

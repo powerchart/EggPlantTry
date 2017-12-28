@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2017-12-06 15:55:06 +0000";
+    CaptureHost = "10.171.87.132";
+    CaptureScreenSize =     (
+        1024,
+        768
+    );
+    HasAlpha = 1;
+    HotSpotX = 61;
+    HotSpotY = 22;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 13;
+    OriginalLocationY = 734;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = TextSmoothSquare;
+}

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Accession Result Entry Workflow.script" package="POCResultEntry Time Conversion Validation.suite" timestamp="2017-12-13 14:40:01.657 -0600"
+ tests="1" successes="1" errors="0" time="19.340947">
+  <properties>
+   <property name="RunDate" value="2017-12-13 14:40:01.657 -0600"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Accession Result Entry Workflow.script" assertions="1" successes="1" errors="0" time="19.317599">
+  </testcase>
+ </testsuite>
+</testsuites>

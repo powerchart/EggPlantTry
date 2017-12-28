@@ -1,0 +1,35 @@
+﻿--Repeat 10 times
+
+Startmovie "POCResultEntry Time Conversion Validation"	
+
+get MyFunctions.LaunchAndLoginApplication ("Pocresultentry")
+
+get MyFunctions.EncounterSelect
+
+get MyFunctions.POCResultEntry_Item_Selection
+
+log yesterday
+
+set the timeformat's date to "%m/%d/%Y"
+DoubleClick (text:"Performed date/time:",HotSpot:(0,25))
+
+TypeText yesterday's date
+
+
+
+TypeText tabKey
+
+
+
+set the clockFormat to 24
+set the timeformat's date to "%H%M"
+
+TypeText time
+
+TypeText altKey & F4
+
+StopMovie
+--End Repeat
+
+
+

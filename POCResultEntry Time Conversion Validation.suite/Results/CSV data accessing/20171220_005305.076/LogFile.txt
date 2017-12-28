@@ -1,0 +1,16 @@
+﻿2017-12-20 00:53:05.079 +0530	START		Running Master.script
+2017-12-20 00:53:05.230 +0530	Log		Line number one	19	on_master	Master.script
+2017-12-20 00:53:05.236 +0530	Log		Line number two	19	on_master	Master.script
+2017-12-20 00:53:05.241 +0530	Log		Line number three	19	on_master	Master.script
+2017-12-20 00:53:05.264 +0530	Log		VR1	32	on_master	Master.script
+2017-12-20 00:53:05.269 +0530	Log		VR2	32	on_master	Master.script
+2017-12-20 00:53:05.273 +0530	Log		VR3	32	on_master	Master.script
+2017-12-20 00:53:05.277 +0530	Log		VR4	32	on_master	Master.script
+2017-12-20 00:53:05.288 +0530	Log		VR5	32	on_master	Master.script
+2017-12-20 00:53:05.293 +0530	Log		VR6	32	on_master	Master.script
+2017-12-20 00:53:05.298 +0530	Log		VR7	32	on_master	Master.script
+2017-12-20 00:53:05.302 +0530	Log		VR8	32	on_master	Master.script
+2017-12-20 00:53:05.306 +0530	Log		VR9	32	on_master	Master.script
+2017-12-20 00:53:05.310 +0530	Log		2017-12-20	37	on_master	Master.script
+2017-12-20 00:53:05.372 +0530	EndTestCase		(Duration:"0.287953", Errors:"0", Exceptions:"0", StartTime:"2017-12-20 00:53:05 +0530", Successes:"1", TestCase:"Master.script", Warnings:"0")
+2017-12-20 00:53:05.425 +0530	SUCCESS		Execution Time 0:00:00 Master.script
