@@ -1,0 +1,40 @@
+﻿param exename
+function LaunchAndLoginApplication exename
+	
+	TypeText windowsKey & d
+	
+	TypeText windowsKey & r
+	wait 4
+	TypeText exename,Return
+	WaitFor 10 , "Login_Cancel_Button"
+	TypeText "cerner",Return
+	
+end LaunchAndLoginApplication
+
+
+function EncounterSelect
+	
+	WaitFor 10 , "Name"
+	Click "Name"
+	TypeText "￼new,new1" ,Return 
+	log ReadText((338,355,971,552))
+	DoubleClick (Text:"23434")
+	
+end EncounterSelect
+
+function SelectInquiryTemplate
+
+	Click (Text:" Chem Auto")
+end SelectInquiryTemplate
+
+
+
+function POCResultEntry_Item_Selection
+	WaitFor 10, (Text:"Test site")
+	
+	Click(text:"Test site:",HotSpot:(0,25))
+	typetext "BWMC POC",returnKey
+	Click(text:"Orderable:",HotSpot:(0,25))
+	typetext "Blood Gas Venous SI",returnKey
+	
+end POCResultEntry_Item_Selection

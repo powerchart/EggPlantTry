@@ -1,0 +1,213 @@
+﻿2017-12-14 15:02:15.692 -0600	START		Running POCResultEntry Time Conversion Validation.script
+2017-12-14 15:02:15.907 -0600	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:02:18.117 -0600	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:02:22.547 -0600	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:02:22.643 -0600	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:02:30.111 -0600	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-14 15:02:30.700 -0600	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-14 15:02:31.508 -0600	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-14 15:02:32.363 -0600	readtext		(338,355,971,552)
+2017-12-14 15:02:32.367 -0600	Log		FIN NBR\nEncType EncType(s) Med Service Facility\nReg Date\nDisch Date Removal D\n000000450 Inpatient\nLaboratory Baseline East 1/16/2015 7:24 AM	6	function_encounterselect	MyFunctions.script
+2017-12-14 15:02:34.644 -0600	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-14 15:02:35.471 -0600	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:02:36.362 -0600	click	(TEXT:"Test site:")	at (10, 162)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:02:37.197 -0600	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:02:39.536 -0600	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:02:40.516 -0600	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:02:40.525 -0600	Log		2017-12-13	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:02:42.689 -0600	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:02:43.525 -0600	typetext		12/13/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:02:44.246 -0600	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:02:45.027 -0600	typetext		15:02	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:02:45.765 -0600	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:02:46.501 -0600	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:02:48.708 -0600	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:02:53.242 -0600	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:02:53.340 -0600	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:03:01.030 -0600	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-14 15:03:01.141 -0600	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-14 15:03:01.951 -0600	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-14 15:03:02.802 -0600	readtext		(338,355,971,552)
+2017-12-14 15:03:02.807 -0600	Log		FIN NBR\nEncType EncType(s) Med Service Facility\nReg Date\nDisch Date Removal D\n000000450 Inpatient\nLaboratory Baseline East 1/16/2015 7:24 AM	6	function_encounterselect	MyFunctions.script
+2017-12-14 15:03:05.045 -0600	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-14 15:03:05.827 -0600	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:03:06.642 -0600	click	(TEXT:"Test site:")	at (10, 162)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:03:07.477 -0600	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:03:09.857 -0600	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:03:10.835 -0600	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:03:10.844 -0600	Log		2017-12-13	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:12.999 -0600	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:13.842 -0600	typetext		12/13/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:14.564 -0600	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:15.343 -0600	typetext		15:03	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:16.081 -0600	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:16.817 -0600	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:03:19.031 -0600	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:03:23.581 -0600	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:03:23.676 -0600	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:03:31.175 -0600	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-14 15:03:31.333 -0600	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-14 15:03:32.147 -0600	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-14 15:03:32.990 -0600	readtext		(338,355,971,552)
+2017-12-14 15:03:32.994 -0600	Log		FIN NBR\nEncType EncType(s) Med Service Facility\nReg Date\nDisch Date Removal D\n000000450 Inpatient\nLaboratory Baseline East 1/16/2015 7:24 AM	6	function_encounterselect	MyFunctions.script
+2017-12-14 15:03:35.289 -0600	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-14 15:03:36.055 -0600	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:03:36.909 -0600	click	(TEXT:"Test site:")	at (10, 162)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:03:37.745 -0600	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:03:40.105 -0600	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:03:41.088 -0600	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:03:41.099 -0600	Log		2017-12-13	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:43.269 -0600	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:44.105 -0600	typetext		12/13/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:44.834 -0600	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:45.610 -0600	typetext		15:03	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:46.348 -0600	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:03:47.084 -0600	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:03:49.297 -0600	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:03:53.576 -0600	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:03:53.669 -0600	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:04:00.975 -0600	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-14 15:04:01.566 -0600	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-14 15:04:02.370 -0600	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-14 15:04:03.221 -0600	readtext		(338,355,971,552)
+2017-12-14 15:04:03.228 -0600	Log		FIN NBR\nEncType EncType(s) Med Service Facility\nReg Date\nDisch Date Removal D\n000000450 Inpatient\nLaboratory Baseline East 1/16/2015 7:24 AM	6	function_encounterselect	MyFunctions.script
+2017-12-14 15:04:05.451 -0600	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-14 15:04:06.223 -0600	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:04:07.051 -0600	click	(TEXT:"Test site:")	at (10, 162)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:04:07.884 -0600	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:04:10.252 -0600	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:04:11.230 -0600	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:04:11.239 -0600	Log		2017-12-13	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:13.390 -0600	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:14.227 -0600	typetext		12/13/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:14.952 -0600	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:15.733 -0600	typetext		15:04	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:16.470 -0600	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:17.204 -0600	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:04:19.423 -0600	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:04:23.619 -0600	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:04:23.715 -0600	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:04:30.982 -0600	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-14 15:04:31.575 -0600	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-14 15:04:32.384 -0600	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-14 15:04:33.231 -0600	readtext		(338,355,971,552)
+2017-12-14 15:04:33.236 -0600	Log		FIN NBR\nEncType EncType(s) Med Service Facility\nReg Date\nDisch Date Removal D\n000000450 Inpatient\nLaboratory Baseline East 1/16/2015 7:24 AM	6	function_encounterselect	MyFunctions.script
+2017-12-14 15:04:35.461 -0600	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-14 15:04:36.227 -0600	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:04:37.050 -0600	click	(TEXT:"Test site:")	at (10, 162)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:04:37.886 -0600	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:04:40.296 -0600	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:04:41.276 -0600	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:04:41.285 -0600	Log		2017-12-13	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:43.440 -0600	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:44.275 -0600	typetext		12/13/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:44.997 -0600	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:45.775 -0600	typetext		15:04	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:46.508 -0600	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:04:47.243 -0600	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:04:49.457 -0600	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:04:53.792 -0600	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:04:53.891 -0600	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:05:01.025 -0600	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-14 15:05:01.448 -0600	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-14 15:05:02.264 -0600	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-14 15:05:03.118 -0600	readtext		(338,355,971,552)
+2017-12-14 15:05:03.123 -0600	Log		FIN NBR\nEncType EncType(s) Med Service Facility\nReg Date\nDisch Date Removal D\n000000450 Inpatient\nLaboratory Baseline East 1/16/2015 7:24 AM	6	function_encounterselect	MyFunctions.script
+2017-12-14 15:05:05.350 -0600	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-14 15:05:06.136 -0600	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:05:06.983 -0600	click	(TEXT:"Test site:")	at (10, 162)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:05:07.814 -0600	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:05:10.175 -0600	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:05:11.159 -0600	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:05:11.168 -0600	Log		2017-12-13	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:13.336 -0600	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:14.176 -0600	typetext		12/13/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:14.898 -0600	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:15.678 -0600	typetext		15:05	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:16.419 -0600	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:17.158 -0600	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:05:19.372 -0600	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:05:23.691 -0600	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:05:23.787 -0600	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:05:31.161 -0600	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-14 15:05:31.762 -0600	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-14 15:05:32.566 -0600	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-14 15:05:33.415 -0600	readtext		(338,355,971,552)
+2017-12-14 15:05:33.420 -0600	Log		FIN NBR\nEncType EncType(s) Med Service Facility\nReg Date\nDisch Date Removal D\n000000450 Inpatient\nLaboratory Baseline East 1/16/2015 7:24 AM	6	function_encounterselect	MyFunctions.script
+2017-12-14 15:05:35.666 -0600	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-14 15:05:36.456 -0600	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:05:37.297 -0600	click	(TEXT:"Test site:")	at (10, 162)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:05:38.127 -0600	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:05:40.500 -0600	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:05:41.487 -0600	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:05:41.496 -0600	Log		2017-12-13	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:43.643 -0600	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:44.482 -0600	typetext		12/13/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:45.207 -0600	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:45.986 -0600	typetext		15:05	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:46.722 -0600	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:05:47.457 -0600	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:05:49.665 -0600	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:05:54.110 -0600	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:05:54.203 -0600	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:06:01.772 -0600	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-14 15:06:01.966 -0600	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-14 15:06:02.778 -0600	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-14 15:06:03.623 -0600	readtext		(338,355,971,552)
+2017-12-14 15:06:03.628 -0600	Log		FIN NBR\nEncType EncType(s) Med Service Facility\nReg Date\nDisch Date Removal D\n000000450 Inpatient\nLaboratory Baseline East 1/16/2015 7:24 AM	6	function_encounterselect	MyFunctions.script
+2017-12-14 15:06:05.886 -0600	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-14 15:06:06.652 -0600	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:06:07.494 -0600	click	(TEXT:"Test site:")	at (10, 162)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:06:08.326 -0600	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:06:10.662 -0600	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:06:11.649 -0600	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:06:11.659 -0600	Log		2017-12-13	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:13.816 -0600	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:14.652 -0600	typetext		12/13/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:15.375 -0600	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:16.154 -0600	typetext		15:06	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:16.890 -0600	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:17.626 -0600	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:06:19.844 -0600	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:06:24.147 -0600	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:06:24.243 -0600	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:06:31.593 -0600	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-14 15:06:31.767 -0600	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-14 15:06:32.574 -0600	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-14 15:06:33.417 -0600	readtext		(338,355,971,552)
+2017-12-14 15:06:33.422 -0600	Log		FIN NBR\nEncType EncType(s) Med Service Facility\nReg Date\nDisch Date Removal D\n000000450 Inpatient\nLaboratory Baseline East 1/16/2015 7:24 AM	6	function_encounterselect	MyFunctions.script
+2017-12-14 15:06:35.654 -0600	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-14 15:06:36.498 -0600	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:06:37.433 -0600	click	(TEXT:"Test site:")	at (9, 161)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:06:38.270 -0600	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:06:40.664 -0600	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:06:41.645 -0600	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:06:41.654 -0600	Log		2017-12-13	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:43.812 -0600	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:44.648 -0600	typetext		12/13/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:45.371 -0600	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:46.146 -0600	typetext		15:06	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:46.884 -0600	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:06:47.620 -0600	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:06:49.832 -0600	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:06:54.216 -0600	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:06:54.314 -0600	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-14 15:07:01.665 -0600	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-14 15:07:02.261 -0600	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-14 15:07:03.068 -0600	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-14 15:07:03.918 -0600	readtext		(338,355,971,552)
+2017-12-14 15:07:03.923 -0600	Log		FIN NBR\nEncType EncType(s) Med Service Facility\nReg Date\nDisch Date Removal D\n000000450 Inpatient\nLaboratory Baseline East 1/16/2015 7:24 AM	6	function_encounterselect	MyFunctions.script
+2017-12-14 15:07:06.130 -0600	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-14 15:07:06.907 -0600	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:07:07.739 -0600	click	(TEXT:"Test site:")	at (10, 162)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:07:08.576 -0600	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:07:10.918 -0600	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:07:11.904 -0600	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-14 15:07:11.915 -0600	Log		2017-12-13	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:07:14.069 -0600	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:07:14.905 -0600	typetext		12/13/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:07:15.632 -0600	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:07:16.412 -0600	typetext		15:07	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:07:17.146 -0600	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-14 15:07:17.241 -0600	EndTestCase		(Duration:"301.544117", Errors:"0", Exceptions:"0", StartTime:"2017-12-14 15:02:15 -0600", Successes:"1", TestCase:"POCResultEntry Time Conversion Validation.script", Warnings:"0")
+2017-12-14 15:07:17.284 -0600	SUCCESS		Execution Time 0:05:01 POCResultEntry Time Conversion Validation.script

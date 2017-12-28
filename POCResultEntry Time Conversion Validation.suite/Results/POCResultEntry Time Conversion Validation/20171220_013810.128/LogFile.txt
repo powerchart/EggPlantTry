@@ -1,0 +1,18 @@
+﻿2017-12-20 01:38:10.130 +0530	START		Running POCResultEntry Time Conversion Validation.script
+2017-12-20 01:38:10.326 +0530	typetext		[windowsKey]d	3	function_launchandloginapplication	MyFunctions.script
+2017-12-20 01:38:11.060 +0530	typetext		[windowsKey]r	5	function_launchandloginapplication	MyFunctions.script
+2017-12-20 01:38:15.283 +0530	typetext		Pocresultentry[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-20 01:38:25.330 +0530	LogWarning		Unable to Find Image(s): Login_Cancel_Button.png -- AutoUpdate engaged	8	function_launchandloginapplication	MyFunctions.script
+2017-12-20 01:38:25.756 +0530	AutoUpdateCaptureScreen	AutoUpdate_0001.png		8	function_launchandloginapplication	MyFunctions.script
+2017-12-20 01:38:25.761 +0530	AutoUpdateWarning	Login_Cancel_Button.png	Found Alternate Image -- Using Discrepancy Search 15	8	function_launchandloginapplication	MyFunctions.script	"Name" = "Discrepancy Search"; "Info" = "15"; 
+2017-12-20 01:38:25.921 +0530	waitfor	Login_Cancel_Button.png	found at (572, 463)	8	function_launchandloginapplication	MyFunctions.script
+2017-12-20 01:38:26.041 +0530	typetext		cerner[return]	9	function_launchandloginapplication	MyFunctions.script
+2017-12-20 01:38:35.235 +0530	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-20 01:38:35.830 +0530	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-20 01:38:36.647 +0530	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-20 01:38:37.459 +0530	readtext		(338,355,971,552)
+2017-12-20 01:38:37.465 +0530	Log		No encounters found.	6	function_encounterselect	MyFunctions.script
+2017-12-20 01:38:58.878 +0530	LogWarning		Unable to Find Text: 000000450 -- AutoUpdate engaged	7	function_encounterselect	MyFunctions.script
+2017-12-20 01:39:10.632 +0530	Exception	(TEXT:"000000450")	No Text Found On Screen: "(TEXT:"000000450")"	7	function_encounterselect	MyFunctions.script
+2017-12-20 01:39:10.706 +0530	EndTestCase		(Duration:"60.571477", Errors:"1", Exceptions:"1", StartTime:"2017-12-20 01:38:10 +0530", Successes:"0", TestCase:"POCResultEntry Time Conversion Validation.script", Warnings:"2")
+2017-12-20 01:39:10.711 +0530	ABORTED		Execution Time 0:01:00 POCResultEntry Time Conversion Validation.script

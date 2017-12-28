@@ -1,0 +1,37 @@
+﻿(*Click "search"
+
+TypeText "Coffee"
+click "searchselect"*)
+
+-- File reading
+(*
+put file  ResourcePath("Read.json") into Filestuff
+
+
+log Filestuff*)
+
+-- Readinf a file and multi liner seperated by \n - New line
+
+put file ResourcePath("Testfile") into Textfile
+put the number of lines of Textfile into Count_of_list
+
+Repeat Count_of_list times
+	log line repeatindex() of Textfile
+End Repeat
+
+put file ResourcePath("PatientInformation.csv") into CSVstuff
+put (the number of lines of CSVstuff )-1 into CSVCount
+
+--log CSVCount
+
+repeat CSVCount times
+	put line (repeatindex()+1) of CSVstuff into patient
+	put the number of lines of patient into Demographics_patient
+	
+	repeat Demographics_patient times
+		log item repeatindex() of patient
+		
+	end repeat
+end repeat
+
+log today

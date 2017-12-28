@@ -1,0 +1,24 @@
+﻿2017-12-19 20:31:59.543 +0530	START		Running POCResultEntry Time Conversion Validation.script
+2017-12-19 20:31:59.740 +0530	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
+2017-12-19 20:32:01.954 +0530	typetext		Pocresultentry[return]	5	function_launchandloginapplication	MyFunctions.script
+2017-12-19 20:32:06.807 +0530	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
+2017-12-19 20:32:06.905 +0530	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
+2017-12-19 20:32:13.736 +0530	waitfor	Name	found at (138, 168)	3	function_encounterselect	MyFunctions.script
+2017-12-19 20:32:13.954 +0530	click	Name	at (138, 168)	4	function_encounterselect	MyFunctions.script
+2017-12-19 20:32:14.767 +0530	typetext		￼new,ap[return]	5	function_encounterselect	MyFunctions.script
+2017-12-19 20:32:15.901 +0530	readtext		(338,355,971,552)
+2017-12-19 20:32:15.906 +0530	Log		Processing...	6	function_encounterselect	MyFunctions.script
+2017-12-19 20:32:18.614 +0530	doubleclick	(TEXT:"000000450")	at (375, 389)	7	function_encounterselect	MyFunctions.script
+2017-12-19 20:32:19.470 +0530	waitfor	(TEXT:"Test site")	found at (31, 141)	2	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-19 20:32:20.353 +0530	click	(TEXT:"Test site:")	at (10, 162)	4	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-19 20:32:21.194 +0530	typetext		BWMC POC[returnKey]	5	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-19 20:32:23.348 +0530	click	(TEXT:"Orderable:")	at (16, 210)	6	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-19 20:32:24.335 +0530	typetext		Blood Gas Venous SI[returnKey]	7	function_pocresultentry_item_selection	MyFunctions.script
+2017-12-19 20:32:24.345 +0530	Log		2017-12-18	10	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 20:32:26.299 +0530	doubleclick	(TEXT:"Performed date/time:")	at (16, 308)	13	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 20:32:27.131 +0530	typetext		12/18/2017	15	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 20:32:27.854 +0530	typetext		[tab]	17	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 20:32:28.633 +0530	typetext		20:32	24	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 20:32:29.370 +0530	typetext		[windowsAltKey][F4]	26	on_pocresultentry_time_conversion_validation	POCResultEntry Time Conversion Validation.script
+2017-12-19 20:32:29.436 +0530	EndTestCase		(Duration:"29.887742", Errors:"0", Exceptions:"0", StartTime:"2017-12-19 20:31:59 +0530", Successes:"1", TestCase:"POCResultEntry Time Conversion Validation.script", Warnings:"0")
+2017-12-19 20:32:29.489 +0530	SUCCESS		Execution Time 0:00:29 POCResultEntry Time Conversion Validation.script

@@ -1,0 +1,41 @@
+﻿
+put item 2 of  EveryImageLocation((Text: "Procedure")) into AP
+
+put "VR_Blasts" into LookingName
+
+insert AP+(-11,208) into SR
+insert AP+(78,372) into SR
+
+
+log ReadText( SR )
+
+If ImageFound( 20 , (text:LookingName)) then
+	
+	
+	
+	put ReadText(SR) into NumList
+	put the number of lines of NumList into max
+	repeat max times
+		put line repeatindex() of NumList into NS
+		put imagelocation(text:NS, searchRectangle:(SR)) into  NL
+		insert NL + (140,-8) into SR2
+		insert NL + (340,10) into SR2
+		put ReadText(SR2) into Name
+		log Name
+		if Name = LookingName then
+			click NL+(200,05)
+			put "yes" into Lookingfor
+			Exit repeat
+		end if
+		put () into SR2
+	end repeat
+	
+End if
+
+else lookingfor = "yes"
+Exit repeat
+end if
+TypeText pagedown
+
+
+End repeat

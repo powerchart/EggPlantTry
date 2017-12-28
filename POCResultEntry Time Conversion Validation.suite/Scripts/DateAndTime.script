@@ -1,0 +1,36 @@
+﻿(*log today's date
+log yesterday's date*)
+
+(*log today's time
+assert that RemoteScreenSize is (1920,1080)*)
+
+put ("Login_Cancel_Button", "Name") into ImageList
+log ImageLocation(item 1 of ImageList )
+
+put RemoteScreenSize() into SUTres
+log SUTres
+
+put today's date into todaydate
+put tomorrow's date into tomorrowdate
+
+log todaydate
+log tomorrowdate
+
+put ((tomorrowdate - todaydate)/3600) into newdate
+
+
+log newdate
+
+--set the AssertionBehavior to "warning"
+Try
+	set x = 10
+	assert x<10
+Catch exception
+	LogError "Failed and clean up done"
+	
+End try
+
+
+
+
+
