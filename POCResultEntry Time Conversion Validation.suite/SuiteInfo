@@ -7,6 +7,9 @@
     SuiteEncodedTextKey = "Li(K5J[(Zmg;vQ@)";
     TemplateScript = "Master.script";
     helpedSuitesInfo =     (
+                {
+            filePath = "../Downloads/EggplantDec28/Dynamic Documentation workflow.suite";
+        }
     );
     helperSuitesInfo =     (
     );
