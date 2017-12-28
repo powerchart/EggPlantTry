@@ -1,5 +1,5 @@
 ﻿param exename
-function LaunchAndLoginApplication exename
+on LaunchAndLoginApplication exename
 	
 	TypeText windowsKey & d
 	
@@ -9,7 +9,7 @@ function LaunchAndLoginApplication exename
 	WaitFor 10 , "Login_Cancel_Button"
 	TypeText "cerner",Return
 	
-end LaunchAndLoginApplication
+End LaunchAndLoginApplication
 
 
 function EncounterSelect
