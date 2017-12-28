@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Archive/Untitled1">
+ <run>
+  <RunDate>2017-12-28 15:51:46.812 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.521000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20171228_155146.812/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in accession_result_entry_workflow:
+Syntax Error at line 35: Syntax Error - can&#x27;t understand &quot;else&quot; at or near character 674</ErrorMessage>
+ </run>
+</runHistory>

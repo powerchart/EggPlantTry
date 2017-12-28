@@ -1,13 +1,1 @@
-﻿{
-    EPVersionNumber = 1711071732;
-    Schedules =     (
-    );
-    ScriptMetaData =     {
-    };
-    SuiteEncodedTextKey = "Li(K5J[(Zmg;vQ@)";
-    TemplateScript = "Master.script";
-    helpedSuitesInfo =     (
-    );
-    helperSuitesInfo =     (
-    );
-}
+﻿{EPVersionNumber = 1711071742; Schedules = (); ScriptMetaData = {}; SuiteEncodedTextKey = "Li(K5J[(Zmg;vQ@)"; TemplateScript = "Master.script"; helpedSuitesInfo = ({filePath = "EggPlantTry/Code Deployment.suite"; }); helperSuitesInfo = (); }
