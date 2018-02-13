@@ -1,4 +1,4 @@
-﻿
+
 //Script will connect to Remote Desktop of given IP Adress
 
 
@@ -44,4 +44,7 @@ Wait 5
 Typetext tabKey
 TypeText global Network_Password
 Wait 5*)
+
+
+//updated for git practice
 
