@@ -1,4 +1,5 @@
 ﻿//To open iBus deployer and deploy code
+<<<<<<< HEAD
 //Testing GIT
 WaitFor 240.0, "FileExp"
 click "FileExp"
@@ -22,6 +23,9 @@ WaitFor 240, (Text:"Capacity Management")
 
 if ImageFound(Text:"Capacity Management")
 	LogSuccess "Deployer Login successful"
+=======
+sful"
+>>>>>>> 22c9886ac021d40da04472181a8fb97cc95992a5
 else 
 	LogWarning "Deployer page not loaded"
 	
