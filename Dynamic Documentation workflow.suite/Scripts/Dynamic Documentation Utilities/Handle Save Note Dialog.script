@@ -4,6 +4,8 @@
 to savenote notetype, title
 	//Entering the Note Type.
 	typetext notetype
+
+//editing the file
 	
 	//Entering the title.
 	Click "Save_Title_TextBox"
