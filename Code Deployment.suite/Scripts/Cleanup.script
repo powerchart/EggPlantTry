@@ -1,5 +1,4 @@
-﻿//To close all browsers post deployment
-
+﻿
 if ImageFound(20,"Deployer Icon") then
 	
 	RightClick "Deployer Icon"
