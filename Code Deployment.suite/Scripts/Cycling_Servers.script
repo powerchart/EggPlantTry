@@ -1,4 +1,4 @@
-﻿
+﻿;ljopj
 //To Restart Containers post deployment
 
 Put ("ConfigurationContainer","AuthenticationContainer","AuthorizationContainer", "DeviceLifeCycleContainer", "LocationContainer", "PersonnelContainer", "VitalslinkContainer") into Mandatory_ContainersList
