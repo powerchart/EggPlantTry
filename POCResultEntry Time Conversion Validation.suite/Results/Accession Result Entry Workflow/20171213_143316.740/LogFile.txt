@@ -1,5 +1,0 @@
-﻿2017-12-13 14:33:16.743 -0600	START		Running Accession Result Entry Workflow.script
-2017-12-13 14:33:21.320 -0600	everyimagelocation	(TEXT:"Procedure")	found 3 images	2	on_accession_result_entry_workflow	Accession Result Entry Workflow.script
-2017-12-13 14:33:21.335 -0600	moveto		at (91, 398)	6	on_accession_result_entry_workflow	Accession Result Entry Workflow.script
-2017-12-13 14:33:21.425 -0600	EndTestCase		(Duration:"4.677489", Errors:"0", Exceptions:"0", StartTime:"2017-12-13 14:33:16 -0600", Successes:"1", TestCase:"Accession Result Entry Workflow.script", Warnings:"0")
-2017-12-13 14:33:21.456 -0600	SUCCESS		Execution Time 0:00:04 Accession Result Entry Workflow.script

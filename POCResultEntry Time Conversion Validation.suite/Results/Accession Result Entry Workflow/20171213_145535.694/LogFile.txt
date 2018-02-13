@@ -1,6 +1,0 @@
-﻿2017-12-13 14:55:35.697 -0600	START		Running Accession Result Entry Workflow.script
-2017-12-13 14:55:40.885 -0600	everyimagelocation	(TEXT:"Procedure")	found 3 images	2	on_accession_result_entry_workflow	Accession Result Entry Workflow.script
-2017-12-13 14:55:41.023 -0600	readtext		(21,238,101,398)
-2017-12-13 14:55:41.028 -0600	Log		R_Segs\nR_l_ymphs\nR_Monos\nR_Basos\nR_Eos\nR_Bands\nR_Blasts\nR_Metas\nR_Myelos\nR Wbc	11	on_accession_result_entry_workflow	Accession Result Entry Workflow.script
-2017-12-13 14:55:41.115 -0600	EndTestCase		(Duration:"5.413318", Errors:"0", Exceptions:"0", StartTime:"2017-12-13 14:55:35 -0600", Successes:"1", TestCase:"Accession Result Entry Workflow.script", Warnings:"0")
-2017-12-13 14:55:41.144 -0600	SUCCESS		Execution Time 0:00:05 Accession Result Entry Workflow.script

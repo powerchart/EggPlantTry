@@ -1,7 +1,0 @@
-﻿2017-12-14 15:14:29.076 -0600	START		Running MICResultEntry Flow.script
-2017-12-14 15:14:29.306 -0600	typetext		[windowsKey]r	3	function_launchandloginapplication	MyFunctions.script
-2017-12-14 15:14:31.523 -0600	typetext		MICResultEntry[return]	5	function_launchandloginapplication	MyFunctions.script
-2017-12-14 15:14:35.543 -0600	waitfor	Login_Cancel_Button	found at (558, 459)	6	function_launchandloginapplication	MyFunctions.script
-2017-12-14 15:14:35.638 -0600	typetext		cerner[return]	7	function_launchandloginapplication	MyFunctions.script
-2017-12-14 15:14:35.736 -0600	EndTestCase		(Duration:"6.655175", Errors:"0", Exceptions:"0", StartTime:"2017-12-14 15:14:29 -0600", Successes:"1", TestCase:"MICResultEntry Flow.script", Warnings:"0")
-2017-12-14 15:14:35.785 -0600	SUCCESS		Execution Time 0:00:06 MICResultEntry Flow.script
