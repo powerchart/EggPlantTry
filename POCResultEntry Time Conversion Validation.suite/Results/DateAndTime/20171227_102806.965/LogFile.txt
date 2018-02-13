@@ -1,4 +1,0 @@
-﻿2017-12-27 10:28:06.968 +0530	START		Running DateAndTime.script
-2017-12-27 10:28:07.053 +0530	Log		12/27/17	1	on_dateandtime	DateAndTime.script
-2017-12-27 10:28:07.102 +0530	EndTestCase		(Duration:"0.127249", Errors:"0", Exceptions:"0", StartTime:"2017-12-27 10:28:06 +0530", Successes:"1", TestCase:"DateAndTime.script", Warnings:"0")
-2017-12-27 10:28:07.195 +0530	SUCCESS		Execution Time 0:00:00 DateAndTime.script
