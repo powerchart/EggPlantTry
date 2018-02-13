@@ -10,8 +10,7 @@
 
 //Declare the title of the Note
 set title to DD&today&Time
-log title
-
+log title +1+2
 
 //Clicking on Add button and selecting Dynamic Documentation option
 Click "Click on Drop Down - Beside Add"
