@@ -1,5 +1,5 @@
 ﻿//To open iBus deployer and deploy code
-
+//Testing GIT
 WaitFor 240.0, "FileExp"
 click "FileExp"
 WaitFor 240.0, "Adress bar.png"
