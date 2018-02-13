@@ -30,7 +30,7 @@ end if
 Click (Text:"Name")
 
 ScrollWheelDown (30)
-
+this
 Repeat Count times
 	
 	TypeText tabKey
